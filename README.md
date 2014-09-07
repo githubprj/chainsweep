@@ -16,5 +16,9 @@ chainsweep.sweep("DOGE", "QSbMjLHZ6cMtQ9kcyWytEtLw7wBHGriHE9kHnUKdKqGvPpKvArof",
 Valid networks are BTC, LTC, DOGE, and BTCTEST
 
 You will need to create a standalone bitcoinjs-lib for running in a browser. Visit bitcoinjs-lib's GitHub page for instructions: https://github.com/bitcoinjs/bitcoinjs-lib
-  $ npm -g install bitcoinjs-lib browserify uglify-js
-  $ browserify -r bitcoinjs-lib -s Bitcoin | uglifyjs > bitcoinjs.min.js
+
+With NPM
+```
+$ npm -g install bitcoinjs-lib browserify uglify-js
+$ browserify -r bitcoinjs-lib -s Bitcoin | uglifyjs > bitcoinjs.min.js
+```
